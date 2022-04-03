@@ -1,5 +1,5 @@
-import '../assets/Banner.css'
-import logo from '../img/leaf+1.png'
+import React from "react";
+import '../assets/Banner.css';
 
 function Banner({ children }) {
 	return <div className='lmj-banner'>{children}</div>
